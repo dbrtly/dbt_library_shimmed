@@ -1,0 +1,5 @@
+packages:
+- local: dbt_libraries/dbt_library_shimmed
+- git: https://github.com/dbrtly/dbt_library.git
+  revision: 02e4a86f19a3d8334c206124f3aa92146cd79080
+sha1_hash: c7db32e0df7c5b12490d697fa9e5dbd62a8ee169

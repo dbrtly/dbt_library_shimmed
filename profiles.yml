@@ -1,0 +1,13 @@
+default:
+  target: bq
+  outputs:
+    dev:
+      type: duckdb
+    bq:
+      type: bigquery
+      method: oauth
+      dataset: dbt_macro_shimmed
+      scopes:
+       - https://www.googleapis.com/auth/bigquery
+       - https://www.googleapis.com/auth/cloud-platform
+       - https://www.googleapis.com/auth/drive

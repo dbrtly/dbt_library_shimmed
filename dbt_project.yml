@@ -2,6 +2,6 @@ name: dbt_project_shimmed
 
 dispatch:
   - macro_namespace: dbt_library
-    search_order: [ 'dbt_project_shimmed', 'dbt_library_shimmed', 'dbt_library' ]
+    search_order: [ 'dbt_project_shimmed', 'dbt_library_shims', 'dbt_library' ]
 
 profile: default
